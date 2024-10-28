@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Space Mono';
+  background-image: url('./assets/image/photo-1719859061156-d3d762d2cf20.jfif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  color: white;
+  height: 50%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.39);
+}
+
+main h1 {
+  position: relative;
+  grid-column: 1;
+  left: 10%;
+  top: 30%;
+}
+
+.logo {
+  grid-column: 1;
+  position: relative; 
+  left: 40%;
+  transform: translateX(-50%) translateY(50%);
+}
+
+form {
+  height: 300px;
+  right: 20%;
+  bottom: 30%;
+  transform: translateX(-50%);
+  color: white;
+  grid-column: 2;
+  position: relative;
+}
+
+form input{
+  border-radius: 5px;
+  border: none;
+}
+
+form textarea {
+  border-radius: 5px;
+  border: none;
+}
+
+.enviar {
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #0b3d91;
+  cursor: pointer;
+}

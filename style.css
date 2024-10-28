@@ -284,3 +284,19 @@ footer p{
   margin-top: -10%;
   margin-bottom: 25%;
 }
+
+.block7{
+  grid-column: 1;
+  text-align: center;
+  margin-top: -7%;
+  color: white;
+  text-decoration: none;
+  width: 250px;
+  height: 25px;
+  position: relative;
+  left: 38%;
+  padding: 15px;
+  background-color: #0b3d91;
+  border: none;
+  border-radius: 20px;
+}
